@@ -13,7 +13,7 @@ ul {
 	list-style: none;
 }
 
-body, footer {
+body, footer{
 	font-family: 'Roboto', sans-serif;
 	color: var(--first-text-color);
 }
@@ -98,7 +98,6 @@ address {
 	color: var(--second-text-color);
 }
 
-
 .logo-footer {
 	font-family: 'Raleway';
 	font-weight: 700;
@@ -108,10 +107,8 @@ address {
 	color: var(--first-text-color);
 }
 
-/* filter-buttons */
-
 .filter-buttons {
-	box-sizing: border-box;
+	font-family: inherit;
 	background: var(--four-text-color);
 	border-radius: 4px;
 	font-weight: 500;
@@ -124,6 +121,7 @@ address {
 
 .filter-buttons:hover,
 .filter-buttons:focus {
+	font-family: inherit;
 	background: var(--second-text-color);
 	border-radius: 4px;
 	font-weight: 500;
